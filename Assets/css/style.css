@@ -32,6 +32,8 @@ header h1 {
     color: whitesmoke;
     margin: 0%;
     width: 30%;
+    transform: translateX(-33px) translateY(0px);
+
  
 }
 
@@ -62,6 +64,10 @@ header nav ul li {
     object-fit: cover;
     background: url("../gears-background.png");
  
+}
+.hero img{
+  max-height: 100%;
+  width: 100%;
 }
 /* self img of me and my dog  */
 .float-left{
