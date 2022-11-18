@@ -5,40 +5,53 @@
   }
 
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    box-sizing: border-box;
 }
 
 body {
    color: var(--background);
+   width: 100%;
 }
 
 header {
     padding: 20px 40px;
     width: 100%;
     background-color: #138222;
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 header h1 {
-    display: inline-block;
+    text-align: left;
     font-size: 48px;
     font-weight: bold;
     color: whitesmoke;
     margin: 0%;
+    width: 30%;
  
 }
 
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-size: 20px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 0px 0;
+  font-size: 20px;
 }
 
+header nav ul li {
+
+  margin: 0px 10px;
+  display: inline;
+  padding: 5px;
+  font-weight: lighter;
+  border-bottom: 4px solid #d2d4dc;
+}
 /* hero background image */
 .hero {
     margin: 0px;
@@ -51,11 +64,14 @@ header nav {
  
 }
 /* self img of me and my dog  */
+.float-left{
+  float: left;
+}
 .self-img {
     display: block;
-    margin: 60px;
+    margin: 50x;
     margin-top: 0px;
-    max-width: 250px;
+    max-width: 200px;
   }
 section {
     width: 100%;
@@ -74,7 +90,7 @@ p {
     margin: left 0px;
   
   }
-
+/* tile grids of imgs */
   .wrapper {
     margin-top: 0px;
     margin-left: 50px;
@@ -207,7 +223,7 @@ p {
     grid-row: 3;
     width: 400px;
     height: 120px;
-    background: url("../images/code img.png");
+    background: url("../images/code\ img.png");
     border: 2px solid black;
     margin-left: 75px;
     color: #c0c2ce;
@@ -320,7 +336,7 @@ flex: auto;
       grid-row: 2;
       width: 240px;
       height: 120px;
-      background: url();
+      background: url("../images/code\ img.png");
       border: 2px solid black;
       margin-left: 0px;
       color: #c0c2ce;
@@ -393,3 +409,5 @@ flex: auto;
       cursor: pointer;
       color: #afafaf
     }
+
+  }
