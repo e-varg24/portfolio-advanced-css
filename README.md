@@ -13,8 +13,8 @@ What i learned
 I learned alot from this challenge espacialy that you have to go through a trail and erro stage to get your page to look like you want it. There is multiple ways to get your page layout looking the same with defront inputs.
 
 
-[screenshot of website](./assets/images/chalange%202.png)
+[screenshot of website](./images/chalange%202.png)
 
 git hub url: https://github.com/e-varg24/portfolio-advanced-css.git
 
-live site url: 
+live site url:  https://e-varg24.github.io/portfolio-advanced-css/
