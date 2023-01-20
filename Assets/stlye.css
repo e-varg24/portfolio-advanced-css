@@ -62,7 +62,7 @@ header nav ul li {
     display: flex;
     justify-content: flex-end;
     object-fit: cover;
-    background: url("../gears-background.png");
+    background: url(gears-background.png);
  
 }
 .hero img{
@@ -123,7 +123,7 @@ p {
     height: 300px;
     border: 2px solid black;
     justify-content: center;
-    background: url("../images/code\ img.png");
+    background: url(images/code.png);
     color: #c0c2ce;
     ;
   }
@@ -163,7 +163,7 @@ p {
     grid-row: 2;
     width: 400px;
     height: 120px;
-    background: url("../images/code\ img.png");
+    background: url(images/code.png);
     border: 2px solid black;
     color: #c0c2ce;
   }
@@ -175,7 +175,7 @@ p {
     grid-row: 2;
     width: 400px;
     height: 120px;
-    background: url("../images/code\ img.png");
+    background: url(images/code.png);
     border: 2px solid black;
     margin-left: 75px;
     color: #c0c2ce;
@@ -204,7 +204,7 @@ p {
     grid-row: 3;
     width: 400px;
     height: 120px;
-    background: url("../images/code\ img.png");
+    background: url(images/code.png);
     border: 2px solid black;
     color: #c0c2ce;
   }
@@ -229,7 +229,7 @@ p {
     grid-row: 3;
     width: 400px;
     height: 120px;
-    background: url("../images/code\ img.png");
+    background: url(images/code.png);
     border: 2px solid black;
     margin-left: 75px;
     color: #c0c2ce;
@@ -293,7 +293,7 @@ flex: auto;
       height: 300px;
       border: 2px solid black;
       justify-content: center;
-      background: url("../images/code\ img.png");
+      background: url(images/code.png);
       color: #c0c2ce;
     }
   
@@ -330,7 +330,7 @@ flex: auto;
       grid-row: 2;
       width: 300px;
       height: 120px;
-      background: url("../images/code\ img.png");
+      background: url(images/code.png);
       border: 2px solid black;
       color: #c0c2ce;
     }
@@ -342,7 +342,7 @@ flex: auto;
       grid-row: 2;
       width: 240px;
       height: 120px;
-      background: url("../images/code\ img.png");
+      background: url(images/code.png);
       border: 2px solid black;
       margin-left: 0px;
       color: #c0c2ce;
@@ -371,7 +371,7 @@ flex: auto;
       grid-row: 3;
       width: 300px;
       height: 120px;
-      background: url("../images/code\ img.png");
+      background: url(images/code.png);
       border: 2px solid black;
       color: #c0c2ce;
     }
@@ -396,7 +396,7 @@ flex: auto;
       grid-row: 3;
       width: 240px;
       height: 120px;
-      background: url("../images/code\ img.png");
+      background: url(images/code.png);
       border: 2px solid black;
       margin-left: 0px;
       color: #c0c2ce;
